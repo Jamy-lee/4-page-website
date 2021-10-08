@@ -1,0 +1,135 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#contact_bg{
+    background-image: url(/background-image.jpg);
+    background-size: cover;
+    background-position: center;
+}
+a {
+    text-decoration: none !important;
+    color: black;
+    font-weight: bolder;
+}
+/* .navbar {
+    position: fixed;
+    text-align: center;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: rgb(109, 120, 122);
+    opacity: 0.4;
+    font-weight: bolder;
+    font-size: medium;
+} */
+
+#contactbg {
+    background-image: url("../img/contact.jpg");
+    background-size: cover;
+    background-position: center;
+    display: grid;
+    place-items: center;
+    min-height: 100vh;
+    padding-top: 65px;
+}
+#contact-head{
+    padding-bottom: 50px;
+    font-family: sans-serif;
+}
+#Form {
+    padding: 20px;
+    text-align: center;
+    text-decoration: antiquewhite;
+    background: border-box;
+    box-shadow: 20%;
+    backdrop-filter: transparent;
+    background: rgba(225, 225, 225, 0.15);
+    background: rgba(243, 220, 220, 0.65);
+    box-shadow: 0 8px 32px 0 rgba(150, 150, 155, 0.37);
+backdrop-filter: blur( 4px );
+-webkit-backdrop-filter: blur( 4px );
+border-radius: 10px;
+border: 1px solid rgba( 255, 255, 255, 0.18 ); 
+    /* display: flex; */
+}
+*{
+    margin: 0px;
+    padding: 5px;
+    box-sizing: border-box;
+}
+    
+
+    
+    
+}
+input:hover {
+    opacity: 0.6;
+}
+textarea:hover{
+    opacity: 0.6;
+}
+::placeholder{
+    color: black;
+}
+textarea{
+    background-color: slategray;
+    opacity: 0.4;
+    border: solid;
+}
+.inputblock {
+    background-color: slategrey;
+    opacity: 0.4;
+    border: solid;
+}
+.submitbutton {
+    background:#666869;
+    color:#fff;
+    border:1px solid#eee;
+    border-radius:10px;
+    box-shadow:2px 2px 2px#eee;
+    text-shadow:none;
+    width: 70px;
+    height: 35px;
+}
+.submitbutton:hover {
+    background:#666869;
+    color:#fff;
+    border:1px solid#eee;
+    border-radius:10px;
+    box-shadow:2px 2px 2px#eee;
+    text-shadow:none;
+}
+.resetbutton {
+    background:#666869;
+    color:#fff;
+    border:1px solid#eee;
+    border-radius:10px;
+    box-shadow:2px 2px 2px#eee;
+    text-shadow:none;
+    width: 70px;
+    height: 35px;
+}
+.resetbutton:hover {
+    background:#666869;
+    color:#fff;
+    border:1px solid#eee;
+    border-radius:10px;
+    box-shadow:2px 2px 2px#eee;
+    text-shadow:none;
+}
+input{
+    width: 180px;
+    height: 30px;
+}
+#text_a{
+    width: 350px;
+    height: 200px;
+}
+#contact-head{
+    color: rgb(34, 5, 11);
+}
+.inputblock{
+    width: 350px;
+}
